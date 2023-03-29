@@ -5,5 +5,5 @@
 hostname = %APPEND% m-api.nexon.com
 
 [Script]
-unblock.js = type=http-response,requires-body=1,pattern=^https?://m-api\.nexon\.com/sdk/enterToy.nx,script-path=https://raw.githubusercontent.com/MapleRen/MapleStoryM-language/master/Global/unblock.js
+unblock.js = type=http-response,requires-body=1,pattern=^https?://m-api\.nexon\.com/sdk/enterToy.nx,script-path=https://raw.githubusercontent.com/mrxiaozuo/MapleStoryM-unlock/main/unblock.js
 
