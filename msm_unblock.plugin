@@ -4,9 +4,10 @@
 #!author=xiaozuo
 #!homepage=https://github.com/mrxiaozuo/MapleStoryM-unlock
 
-[MITM]
-hostname = %APPEND% m-api.nexon.com
-
 [Script]
-unblock.js = type=http-response,requires-body=1,pattern=^https?://m-api\.nexon\.com/sdk/enterToy.nx,script-path=https://raw.githubusercontent.com/mrxiaozuo/MapleStoryM-unlock/main/unblock.js
 
+http-response ^https?://m-api\.nexon\.com/sdk/enterToy.nx script-path=https://raw.githubusercontent.com/MapleRen/MapleStoryM-language/master/Global/unblock.js,requires-body=1, tag=unblock.js 
+
+[MITM]
+
+hostname = m-api.nexon.com
