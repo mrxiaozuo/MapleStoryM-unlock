@@ -1,5 +1,8 @@
 #!name=MapleStoryM Unblock
 #!desc=用于岛M的锁区解除，使用前请先拔卡挂梯子成功进入一次游戏，之后才能使用该模块进行解锁
+#!icon=https://raw.githubusercontent.com/mrxiaozuo/MapleStoryM-unlock/main/icon.png
+#!author=xiaozuo
+#!homepage=https://github.com/mrxiaozuo/MapleStoryM-unlock
 
 [MITM]
 hostname = %APPEND% m-api.nexon.com
